@@ -21,6 +21,7 @@ export default ({ currentUser }) => {
       <Link href="/">
         <a className="navbar-brand"> GitTix</a>
       </Link>
+
       <div className="d-flex justify-content-end">
         <ul className="nav d-flex aligh-items-center">{links}</ul>
       </div>
